@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        article.some #section[data] .aside{
+            color:blue;
+        }
+
+        #header[class] b:nth-child(3) span#some{
+            color:yellow;
+        }
+
+        section#new header:last-child .city{
+            color:orange;
+        }
+    </style>
+</head>
+<body>
+    <article class="some">
+        <section id="section" data>
+            <p class="aside"> Blue hoja</p>
+
+        </section>
+    </article>
+
+
+    <div id="header" class="head">
+        <b>B1</b>
+        <b>B2</b>
+        <b> <span id="some">B3:yello hoja</span></b>
+    </div>
+
+    
+    <section id="new">
+        <header>
+            <p>first</p>
+            <p class="city">Orange hoja</p>
+        </header>
+    </section>
+</body>
+</html>
