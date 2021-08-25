@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Assignments</title>
+</head>
+
+<body>
+    <div align="center" class="frm">
+        
+            <fieldset >
+                <legend>SignUp Form</legend>
+                <form  class="frmid" action="signup.aspx" >
+                    <h1>SignUp Form</h1>
+                    <div class="bx">
+                <label for="nm">User Name</label>
+                <input type="text" name="userName" id="nm">
+
+            </div>
+            <div class="bx">
+                <label for="ps">Password</label>
+                <input type="password" name="userPass" id="ps">
+
+            </div>
+            <div class="bx">
+                <label for="">Choose Gander : </label>
+                Male<input checked type="radio" name="gender" id=""> FeMale <input type="radio" name="gander" id="">
+                
+            </div>
+            <div class="bx" id="id1">
+                <label for="">Choose City</label>
+                <select name="cities" id="">
+                    <option value="fsd">Faisalabad</option>
+                    <option value="lhr">Lahore</option>
+                    <option value="khi">Karachi</option>
+                    <option value="isb">Islamabad</option>
+                    <option value="mul">Multan</option>
+                    <option value="jhg">Jhang</option>
+                </select>
+            </div>
+            <div class="bx">
+                <label for="">Choose Digrees</label>
+                <select name="Digrees" id="">
+                    <option value="se">Software Engineering</option>
+                    <option value="cs">Computer Science</option>
+                    <option value="it">Infomation Technology</option>
+                    <option value="bi">Bio Informatics</option>
+                    
+                </select>
+            </div>
+            <div class="a1">
+                
+                <label for="">Is your information Correct</label>
+                <input required type="checkbox" name="" id="">
+            </div>
+            <div class="btn">
+                <button>Submit</button>
+            </div>
+            <div class="btn">
+                <button type="reset">Reset Form</button>
+            </div>
+        </form>
+    </fieldset>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,167 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.navBar{
+    display: flex;
+    background-color: #decd2e;
+    height: 58px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+
+}
+#logo{
+    height:50px;
+    vertical-align: middle;
+    
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+
+#logoTxt2{
+    vertical-align: bottom;
+    margin-left: 30%;
+    /* margin-bottom: 10px; */
+    position: relative;
+    bottom: 20px;
+    left: 12px;
+    color: rgb(16 160 54);
+}
+#list ul{
+    display: flex;
+    list-style: none;
+    /* align-content: center; */
+    justify-content: center;
+    padding-top: 4px ;
+}
+li{
+    list-style: none;
+    position: relative;
+    left: 5px;
+}
+.btn{
+    border: none;
+    background: none;
+    color: black;
+}
+.btn a{
+    text-decoration: none;
+    color: black;
+    margin-left: 19px;
+    position: relative;
+    font-weight: bold;
+    top: 15px; 
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#list{
+    width: 100%;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* align-content: center; */
+}
+#lastBtn{
+    width: 190px;
+    height: 100%;
+}
+.lastBtn{
+    position: relative;
+    padding: 14px;
+    height: 20px;
+    top: 14px;
+    right: 9px;
+    background-color: rgb(123 84 171);
+    border: none;
+    border-radius: 15px;
+    font-size: 10px;
+    
+}
+.b1{
+    position: relative;
+    bottom: 6px;
+    font-weight: bold;
+    background: none;
+    border: none;
+    background-color:skyblue ;
+    border-radius: 14px;
+    width: 170px;
+    height: 35px;
+    margin: 15px;
+    font-size: large;
+
+}
+.b2{
+    position: relative;
+    bottom: 6px;
+    font-weight: bold;
+    background: none;
+    border: none;
+    background-color: rgb(130 5 128);
+    border-radius: 14px;
+    color: rgb(222 205 46);
+    width: 170px;
+    height: 35px;
+    margin: 15px;
+    font-size: large;
+
+}
+.lastBtn a{
+    position: relative;
+    bottom: 6px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+#background{
+    background-image: url(background.jpg);
+
+    /* opacity: 0.; */
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    position: relative;
+    
+
+}
+#services{
+    padding-top: 50px;
+    width: 40%;
+    margin: auto;
+    text-align: center;
+}
+
+#main{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 25%;
+    bottom: 8px;
+    color: #790404;
+    font-size: 70px;
+}
+#btn2{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    position: relative;
+    top: 200px;
+    
+}
+
+#simple{ 
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    position: relative;
+    text-align: center;
+    font-size: 25px;
+    top: 26%;
+    left: 80px;
+    color: sienna;
+}
+#services h1{
+    
+}
